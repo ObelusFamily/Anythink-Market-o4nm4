@@ -11,3 +11,20 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 ## First setup
 
 **[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+
+## Instruction for Docker Installing
+1. You need go to the offical website of the docker.**
+Download the docker for you computer. 
+2. Now after downloading the docker , install it
+3. Run some command in your terminal.
+--> docker -v and docker-compose -v 
+--> to run -> docker-compose up -> form the project root directory.
+
+4. If everything is fine then go to this url -> http://localhost:3000/api/ping
+5. If everything is fine and working then you are able to create a new use on
+url -> http://localhost:3001/register
+Now you have successfully done the with everything. 
+
+6. To run all scripts in the container created by docker-compose up . you can use this command in -> docker exec -> to run commands on a running container.
+
+Now your Environment is ready . You can good to go.
